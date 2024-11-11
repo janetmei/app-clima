@@ -23,7 +23,7 @@ function mostrarDatosClima(data){
     const temperatura = data.main.temp
     const descripcion = data.weather[0].description
     
-    // Crear elemento html
+    // Crear elementos html
     const ciudadTitulo = document.createElement('h2')
     ciudadTitulo.textContent = ciudadNombre
 
